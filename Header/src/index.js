@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
-import { isInWeChat } from '@ctrip/nfes-util';
+
+// import style from '../assets/index.css';
 
 const noop = () => {};
 
@@ -24,7 +25,7 @@ export default class Header extends Component {
   }
 
   componentWillMount() {
-    this.setState({ isInWeChat });
+    // this.setState({ isInWeChat });
   }
 
   onBack = (e) => {

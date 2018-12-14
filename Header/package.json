@@ -1,6 +1,6 @@
 {
   "name": "yufj-header",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "react ui component of header",
   "main": "./lib/index",
   "module": "./es/index",
@@ -24,7 +24,6 @@
   "author": "yufj",
   "license": "MIT",
   "dependencies": {
-    "@ctrip/nfes-util": "^1.0.18",
     "react": "^16.x",
     "react-dom": "^16.x",
     "styled-jsx": "^3.1.2"
