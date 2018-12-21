@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { noop, isInWeChat, isInCtripApp } from '../tools';
+import { noop, isInWeChat } from '../tools';
 import { classPrefixer } from '../config';
 
 const limitHeight = 40;
