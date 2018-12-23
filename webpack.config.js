@@ -37,16 +37,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ["@babel/preset-env", "@babel/preset-react"],
-            plugins: [
-              "@babel/plugin-proposal-export-default-from",
-              ["@babel/plugin-proposal-class-properties", { "loose": true }]
-            ]
-          }
-        }
+        use: ['babel-loader']
       },
       {
         test: /\.less$/,

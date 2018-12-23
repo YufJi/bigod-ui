@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { Header } from '../src'
-import '../src/Header/index.less'
+// import '../src/Header/index.less'
 
 ReactDOM.render(<div>
   <Header 

@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import { HeaderFixed } from '../src'
-import '../src/HeaderFixed/index.less'
 
 ReactDOM.render(<div>
   <HeaderFixed 
